@@ -145,8 +145,6 @@ public abstract class GLRenderer implements GLSurfaceView.Renderer
     {
       if (!hidden)
       {
-        System.out.printf("AVERAGE FRAME-RATE: %f FRAMES PER SECOND\n", ticks / (elapsed / 1000f));
-
         /*
          * AT THIS STAGE, THE SURFACE HAS BEEN ALREADY DESTROYED,
          * I.E. UNLOADING TEXTURES WILL BE A NO-OP...
